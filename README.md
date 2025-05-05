@@ -35,8 +35,7 @@
 
 ### Proxy
 
-- GET `/proxy/posts`: Forwards request to the external API’s /posts endpoint, passing all query parameters (e.g.,
-  ?userId=1).
+- GET `/proxy/posts`: Forwards request to the external API’s /posts endpoint, passing all query parameters.
 - GET `/proxy/posts/{id}`: Fetches a specific post by ID from the external API.
 
 ## Notes
